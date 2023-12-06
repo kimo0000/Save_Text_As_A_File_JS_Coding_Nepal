@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Save A Text As A File JS Coding Nepal</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <textarea name="area" id="textarea" required></textarea>
+      <div class="content">
+        <div class="fil_save">
+          <div class="fil_name">
+            <label for="fil">File Name: </label>
+            <input type="text" placeholder="Enter File Name" />
+          </div>
+          <div class="save_as">
+            <label for="save">Save As: </label>
+            <select name="select" id="selected">
+              <option value="text/plain">text File (.txt)</option>
+              <option value="text/javacript">JS File (.js)</option>
+              <option value="text/html">HTML File (.html)</option>
+              <option value="image/svg+xml">SVG File (.svg)</option>
+              <option value="application/msword">Doc File (.doc)</option>
+              <option value="application/vnd.ms.powerpoint">
+                PPT File (.ppt)
+              </option>
+            </select>
+          </div>
+        </div>
+        <button class="save">Save As text file</button>
+      </div>
+    </div>
+  </body>
+</html>
